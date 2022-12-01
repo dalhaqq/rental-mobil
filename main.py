@@ -21,8 +21,8 @@ data = {
 sl.title("Rental Mobil")
 
 # image
-sl.write("![image](https://github.com/dalhaqq/rental-mobil/header1.jpg)")
-sl.write("![image](https://github.com/dalhaqq/rental-mobil/header2.jpg)")
+sl.write("<img src='https://raw.githubusercontent.com/dalhaqq/rental-mobil/main/header1.jpg' width='600'>", unsafe_allow_html=True)
+sl.write("<img src='https://raw.githubusercontent.com/dalhaqq/rental-mobil/main/header2.jpg' width='600'>", unsafe_allow_html=True)
 
 nama = sl.text_input("Nama")
 alamat = sl.text_area("Alamat")
