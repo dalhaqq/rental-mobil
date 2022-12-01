@@ -22,7 +22,9 @@ sl.title("Rental Mobil")
 
 # image
 sl.write("<img src='https://raw.githubusercontent.com/dalhaqq/rental-mobil/main/header1.jpg' width='600'>", unsafe_allow_html=True)
+sl.write("<br>", unsafe_allow_html=True)
 sl.write("<img src='https://raw.githubusercontent.com/dalhaqq/rental-mobil/main/header2.jpg' width='600'>", unsafe_allow_html=True)
+sl.write("<br>", unsafe_allow_html=True)
 
 nama = sl.text_input("Nama")
 alamat = sl.text_area("Alamat")
