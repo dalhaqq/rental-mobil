@@ -1,4 +1,6 @@
 import streamlit as sl
+if not sl.session_state.get("nama"):
+    sl.write("Anda belum memesan mobil")
 sl.write("Nama: ", sl.session_state["nama"])
 sl.write("Alamat: ", sl.session_state["alamat"])
 sl.write("No. HP: ", sl.session_state["no_hp"])
