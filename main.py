@@ -20,6 +20,10 @@ data = {
 
 sl.title("Rental Mobil")
 
+# image
+sl.write("![image](https://github.com/dalhaqq/rental-mobil/header1.jpg)")
+sl.write("![image](https://github.com/dalhaqq/rental-mobil/header2.jpg)")
+
 nama = sl.text_input("Nama")
 alamat = sl.text_area("Alamat")
 no_hp = sl.text_input("No. HP")
